@@ -1,4 +1,6 @@
-@import url(/assets/font.googleapis/css.monstrat.css); @import url(/assets/font.googleapis/css2.rameto.css); .hot-games.wrapper {
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap);
+.hot-games.wrapper {
     height: 180px;
     overflow: hidden;
     position: relative
@@ -58,7 +60,6 @@
         -webkit-transform: translateX(0);
         transform: translateX(0)
     }
-
     to {
         -webkit-transform: translateX(-100%);
         transform: translateX(-100%)
@@ -70,7 +71,6 @@
         -webkit-transform: translateX(0);
         transform: translateX(0)
     }
-
     to {
         -webkit-transform: translateX(-100%);
         transform: translateX(-100%)
@@ -82,7 +82,6 @@
         -webkit-transform: translateX(100%);
         transform: translateX(100%)
     }
-
     to {
         -webkit-transform: translateX(0);
         transform: translateX(0)
@@ -94,7 +93,6 @@
         -webkit-transform: translateX(100%);
         transform: translateX(100%)
     }
-
     to {
         -webkit-transform: translateX(0);
         transform: translateX(0)
@@ -116,7 +114,8 @@
     justify-content: space-between
 }
 
-.flex-space-btw,.flex-start {
+.flex-space-btw,
+.flex-start {
     -webkit-align-items: center;
     align-items: center;
     display: -webkit-flex;
@@ -152,7 +151,7 @@
 }
 
 .mobile .deposit-section {
-    background: linear-gradient(0deg,hsla(0,0%,45%,.2),hsla(0,0%,45%,.2));
+    background: linear-gradient(0deg, hsla(0, 0%, 45%, .2), hsla(0, 0%, 45%, .2));
     border-radius: 8px;
     display: inline-block;
     padding: 15px;
@@ -160,14 +159,14 @@
 }
 
 .mobile .deposit-section:after {
-    background: linear-gradient(180deg,#818181,#000);
+    background: linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     content: "";
     height: 5px;
     height: 100%;
     left: 12px;
     left: -1px;
-    padding: 0!important;
+    padding: 0 !important;
     position: absolute;
     top: 0;
     top: -1px;
@@ -186,11 +185,11 @@
 }
 
 .deposit-withdraw-div .deposit-withdraw-section {
-    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0,linear-gradient(180deg,#262626,#010101);
+    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0, linear-gradient(180deg, #262626, #010101);
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: contain;
-    border: 1px solid linear-gradient(180deg,#818181,#000);
+    border: 1px solid linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     box-sizing: border-box;
     display: inline-block;
@@ -201,14 +200,14 @@
 }
 
 .deposit-withdraw-div .deposit-withdraw-section:after {
-    background: linear-gradient(180deg,#818181,#000);
+    background: linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     content: "";
     height: 5px;
     height: 100%;
     left: 12px;
     left: -1px;
-    padding: 0!important;
+    padding: 0 !important;
     position: absolute;
     top: 0;
     top: -1px;
@@ -219,7 +218,7 @@
 
 .mobile .deposit-withdraw-div .deposit-withdraw-section {
     background: transparent;
-    border: 0 solid linear-gradient(180deg,#818181,#000);
+    border: 0 solid linear-gradient(180deg, #818181, #000);
     margin-right: 0;
     padding: 0;
     width: 100%
@@ -302,26 +301,26 @@
 }
 
 .deposit-withdraw-div .deposit-withdraw-section .deposit-withdraw-box .deposit-withdraw-top .deposit-withdraw-content div .deposit-withdraw-text1 {
-    font-family: Rammetto One,cursive;
+    font-family: Rammetto One, cursive;
     font-size: 16px;
     text-transform: uppercase
 }
 
-@media (min-width: 461px) and (max-width:660px) {
+@media (min-width:461px) and (max-width:660px) {
     .deposit-withdraw-div .deposit-withdraw-section .deposit-withdraw-box .deposit-withdraw-top .deposit-withdraw-content div .deposit-withdraw-text1 {
-        font-size:16px
+        font-size: 16px
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width:460px) {
     .deposit-withdraw-div .deposit-withdraw-section .deposit-withdraw-box .deposit-withdraw-top .deposit-withdraw-content div .deposit-withdraw-text1 {
-        font-size:15px
+        font-size: 15px
     }
 }
 
 .deposit-withdraw-div .deposit-withdraw-section .deposit-withdraw-box .deposit-withdraw-top .deposit-withdraw-content div:first-child .deposit-withdraw-text1 {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(180deg,#fff 0,#fff 100%,#fff 0,#fff 0);
+    background: linear-gradient(180deg, #fff 0, #fff 100%, #fff 0, #fff 0);
     -webkit-background-clip: text
 }
 
@@ -352,7 +351,7 @@
 }
 
 .deposit-withdraw-div .deposit-withdraw-section .deposit-withdraw-box .deposit-withdraw-loader span {
-    background: linear-gradient(1turn,#b7870c,#f4e303 43.57%,#97640e);
+    background: linear-gradient(1turn, #b7870c, #f4e303 43.57%, #97640e);
     border-radius: 10px;
     height: 100%;
     position: absolute;
@@ -365,21 +364,20 @@
 }
 
 .deposit-withdraw-div .deposit-withdraw-section .support-div .icon-wrp {
-    background: linear-gradient(180deg,#a5a3a1 0,#fefefe 100%,#adaba9 0,#fff 0);
-    box-shadow: 0 -1px 1px 1px rgba(0,0,0,.15)
+    background: linear-gradient(180deg, #a5a3a1 0, #fefefe 100%, #adaba9 0, #fff 0);
+    box-shadow: 0 -1px 1px 1px rgba(0, 0, 0, .15)
 }
 
 .mobile .deposit-withdraw-div .deposit-withdraw-section .support-div {
     margin-top: 0
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px) {
     .deposit-withdraw-div .deposit-withdraw-section .support-div .carousel-inner {
-        border-bottom:1px solid #282828;
+        border-bottom: 1px solid #282828;
         border-top: 0 solid #282828;
         margin-top: 20px
     }
-
     .deposit-withdraw-div .deposit-withdraw-section .support-div .carousel-inner .item {
         padding: 30px 0
     }
@@ -390,9 +388,9 @@
     display: flex
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px) {
     .deposit-withdraw-div .deposit-withdraw-section .support-div .support-box {
-        -webkit-flex-wrap:wrap;
+        -webkit-flex-wrap: wrap;
         flex-wrap: wrap
     }
 }
@@ -401,12 +399,11 @@
     width: 50%
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px) {
     .deposit-withdraw-div .deposit-withdraw-section .support-div .support-box .contact-item {
-        margin-top:15px;
+        margin-top: 15px;
         width: 48%
     }
-
     .deposit-withdraw-div .deposit-withdraw-section .support-div .support-box .contact-item:nth-child(-n+2) {
         margin-top: 0
     }
@@ -420,21 +417,21 @@
     width: 43%
 }
 
-@media (min-width: 661px) and (max-width:768px) {
+@media (min-width:661px) and (max-width:768px) {
     .deposit-withdraw-div .deposit-withdraw-section .support-div .support-box .skype-card-width {
-        width:50%
+        width: 50%
     }
 }
 
-@media (min-width: 461px) and (max-width:660px) {
+@media (min-width:461px) and (max-width:660px) {
     .deposit-withdraw-div .deposit-withdraw-section .support-div .support-box .skype-card-width {
-        width:50%
+        width: 50%
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width:460px) {
     .deposit-withdraw-div .deposit-withdraw-section .support-div .support-box .skype-card-width {
-        width:50%
+        width: 50%
     }
 }
 
@@ -443,7 +440,7 @@
 }
 
 .deposit-withdraw-div .deposit-withdraw-section .support-div .support-box .support-card .icon-circle-border {
-    background: linear-gradient(180deg,#818181 0,#131212);
+    background: linear-gradient(180deg, #818181 0, #131212);
     border-radius: 4px;
     display: -webkit-flex;
     display: flex;
@@ -472,7 +469,7 @@
 
 .deposit-withdraw-div .deposit-withdraw-section .support-div .support-box .support-card .icon-circle-border .icon-div i {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(1turn,#fff,#fff 43.57%,#fff);
+    background: linear-gradient(1turn, #fff, #fff 43.57%, #fff);
     -webkit-background-clip: text
 }
 
@@ -486,9 +483,9 @@
     width: calc(100% - 2em)
 }
 
-@media (max-width: 460px) {
+@media (max-width:460px) {
     .deposit-withdraw-div .deposit-withdraw-section .support-div .support-box .support-card .support-content {
-        width:calc(100% - 45px)
+        width: calc(100% - 45px)
     }
 }
 
@@ -505,7 +502,7 @@
 .deposit-withdraw-div .deposit-withdraw-section .support-div .support-box .support-card .support-content .mail-color {
     -webkit-text-fill-color: transparent;
     word-wrap: break-word;
-    background: linear-gradient(180deg,#fff 0,#fff 100%,#fff 0,#fff 0);
+    background: linear-gradient(180deg, #fff 0, #fff 100%, #fff 0, #fff 0);
     -webkit-background-clip: text;
     font-size: 12px;
     font-weight: 900
@@ -522,7 +519,7 @@
 }
 
 .info-section {
-    background: linear-gradient(0deg,hsla(0,0%,45%,.2),hsla(0,0%,45%,.2));
+    background: linear-gradient(0deg, hsla(0, 0%, 45%, .2), hsla(0, 0%, 45%, .2));
     border-radius: 16px;
     box-sizing: border-box;
     padding: 0 10px;
@@ -569,7 +566,7 @@
 }
 
 .info-section .div-card .a-href-div {
-    background: linear-gradient(180deg,#818181,#000);
+    background: linear-gradient(180deg, #818181, #000);
     border-radius: 5px;
     display: -webkit-flex;
     display: flex;
@@ -591,7 +588,7 @@
     height: 90%;
     place-content: center;
     place-items: center;
-    text-decoration: none!important;
+    text-decoration: none !important;
     width: 95%
 }
 
@@ -609,16 +606,16 @@
 }
 
 .circle_recommended_games .popular-section {
-    padding: 30px 0 0!important
+    padding: 30px 0 0 !important
 }
 
 .circle_recommended_games .popular-section .btn-link.btn-prev {
     background: #262525;
     border-radius: 50%;
     height: 50px;
-    left: 0!important;
-    right: auto!important;
-    top: 1rem!important;
+    left: 0 !important;
+    right: auto !important;
+    top: 1rem !important;
     width: 50px
 }
 
@@ -627,12 +624,12 @@
 }
 
 .circle_recommended_games .popular-section .btn-link.btn-prev:before {
-    background: linear-gradient(90deg,#c89933,#000);
+    background: linear-gradient(90deg, #c89933, #000);
     border-radius: 50%;
     content: "";
     height: 100%;
     left: -1px;
-    padding: 0!important;
+    padding: 0 !important;
     position: absolute;
     top: -1px;
     width: calc(100% + 2px);
@@ -641,7 +638,7 @@
 
 .mobile .circle_recommended_games .popular-section .btn-link.btn-prev {
     height: 35px;
-    top: 2rem!important;
+    top: 2rem !important;
     width: 35px
 }
 
@@ -649,7 +646,7 @@
     background: #262525;
     border-radius: 50%;
     height: 50px;
-    top: 1rem!important;
+    top: 1rem !important;
     width: 50px
 }
 
@@ -658,12 +655,12 @@
 }
 
 .circle_recommended_games .popular-section .btn-link.btn-next:before {
-    background: linear-gradient(270deg,#c89933,#000);
+    background: linear-gradient(270deg, #c89933, #000);
     border-radius: 50%;
     content: "";
     height: 100%;
     left: -1px;
-    padding: 0!important;
+    padding: 0 !important;
     position: absolute;
     top: -1px;
     width: calc(100% + 2px);
@@ -672,7 +669,7 @@
 
 .mobile .circle_recommended_games .popular-section .btn-link.btn-next {
     height: 35px;
-    top: 2rem!important;
+    top: 2rem !important;
     width: 35px
 }
 
@@ -697,17 +694,17 @@
     flex-direction: row;
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    padding: 2px!important
+    padding: 2px !important
 }
 
 .mobile .g-slider-wrapper ul {
-    padding: 0!important
+    padding: 0 !important
 }
 
 .g-slider-wrapper ul li {
     transition: -webkit-transform .2s;
     transition: transform .2s;
-    transition: transform .2s,-webkit-transform .2s
+    transition: transform .2s, -webkit-transform .2s
 }
 
 .g-slider-wrapper ul li:hover {
@@ -716,17 +713,17 @@
 }
 
 .g-slider-wrapper ul .round_recommended_game {
-    border-radius: 50px!important;
+    border-radius: 50px !important;
     height: 70px;
-    margin: 6px 10px!important
+    margin: 6px 10px !important
 }
 
 .g-slider-wrapper ul .round_recommended_game:before {
-    border-radius: 50px!important
+    border-radius: 50px !important
 }
 
 .mobile .g-slider-wrapper ul .round_recommended_game {
-    margin: 6px 10px!important
+    margin: 6px 10px !important
 }
 
 .g-slider-wrapper ul .round_recommended_game img {
@@ -736,18 +733,18 @@
 
 .g-slider-wrapper .lottery-title-center {
     margin-top: 90px;
-    place-content: center!important
+    place-content: center !important
 }
 
-@media (max-width: 460px) {
+@media (max-width:460px) {
     .g-slider-wrapper .lottery-title-center {
-        margin-top:70px
+        margin-top: 70px
     }
 }
 
 .g-slider-wrapper .title-center {
     margin-top: 60px;
-    place-content: center!important
+    place-content: center !important
 }
 
 .mobile .g-slider-wrapper .title-center {
@@ -773,81 +770,95 @@
     display: none
 }
 
-.g-slider-wrapper a.game-box,.g-slider-wrapper div.game-box {
+.g-slider-wrapper a.game-box,
+.g-slider-wrapper div.game-box {
     border-radius: 4px 4px 0 0;
     height: 85px;
     width: 110px
 }
 
-.desktop .common-top-section .g-slider-wrapper a.game-box,.desktop .common-top-section .g-slider-wrapper div.game-box {
+.desktop .common-top-section .g-slider-wrapper a.game-box,
+.desktop .common-top-section .g-slider-wrapper div.game-box {
     margin-right: 0
 }
 
-.g-slider-wrapper a.game-box>img,.g-slider-wrapper div.game-box>img {
+.g-slider-wrapper a.game-box>img,
+.g-slider-wrapper div.game-box>img {
     background: #000;
     border-radius: 15px;
     height: 110px;
     width: 110px
 }
 
-.desktop .g-slider-wrapper a.game-box>img,.desktop .g-slider-wrapper div.game-box>img {
+.desktop .g-slider-wrapper a.game-box>img,
+.desktop .g-slider-wrapper div.game-box>img {
     height: 150px;
     width: 150px
 }
 
-.g-slider-wrapper a.game-box .game_brand,.g-slider-wrapper div.game-box .game_brand {
+.g-slider-wrapper a.game-box .game_brand,
+.g-slider-wrapper div.game-box .game_brand {
     margin-bottom: 15px;
     text-align: left
 }
 
-.mobile .g-slider-wrapper a.game-box .game_brand,.mobile .g-slider-wrapper div.game-box .game_brand {
+.mobile .g-slider-wrapper a.game-box .game_brand,
+.mobile .g-slider-wrapper div.game-box .game_brand {
     margin-bottom: 10px
 }
 
-.g-slider-wrapper a.game-box .game_brand_logo,.g-slider-wrapper div.game-box .game_brand_logo {
+.g-slider-wrapper a.game-box .game_brand_logo,
+.g-slider-wrapper div.game-box .game_brand_logo {
     display: inline-block;
     height: 50px;
     margin-right: 10px;
     width: 50px
 }
 
-.mobile .g-slider-wrapper a.game-box .game_brand_logo,.mobile .g-slider-wrapper div.game-box .game_brand_logo {
+.mobile .g-slider-wrapper a.game-box .game_brand_logo,
+.mobile .g-slider-wrapper div.game-box .game_brand_logo {
     height: 30px;
     margin-right: 5px;
     width: 30px
 }
 
-.g-slider-wrapper a.game-box .game_brand_name,.g-slider-wrapper div.game-box .game_brand_name {
+.g-slider-wrapper a.game-box .game_brand_name,
+.g-slider-wrapper div.game-box .game_brand_name {
     color: #fff;
-    display: inline-block!important;
-    font-family: Sora,sans-serif;
+    display: inline-block !important;
+    font-family: Sora, sans-serif;
     font-weight: 600;
     text-transform: uppercase
 }
 
-.mobile .g-slider-wrapper a.game-box .game_brand_name,.mobile .g-slider-wrapper div.game-box .game_brand_name {
+.mobile .g-slider-wrapper a.game-box .game_brand_name,
+.mobile .g-slider-wrapper div.game-box .game_brand_name {
     font-size: 10px
 }
 
-.g-slider-wrapper a.game-box.round,.g-slider-wrapper div.game-box.round {
+.g-slider-wrapper a.game-box.round,
+.g-slider-wrapper div.game-box.round {
     height: auto;
     width: auto
 }
 
-.g-slider-wrapper a.game-box.round>img,.g-slider-wrapper div.game-box.round>img {
+.g-slider-wrapper a.game-box.round>img,
+.g-slider-wrapper div.game-box.round>img {
     border-radius: 50%;
     height: auto;
     max-width: 70px;
     width: 70px
 }
 
-.desktop .g-slider-wrapper a.game-box.round>img,.desktop .g-slider-wrapper div.game-box.round>img {
+.desktop .g-slider-wrapper a.game-box.round>img,
+.desktop .g-slider-wrapper div.game-box.round>img {
     height: auto;
     max-width: 100%;
     width: auto
 }
 
-.desktop .g-slider-wrapper a.game-box.round,.desktop .g-slider-wrapper div.game-box.round {
+.desktop .g-slider-wrapper a.game-box.round,
+.desktop .g-slider-wrapper div.game-box.round {
     height: auto;
     max-width: 100%;
     width: 100px
@@ -924,7 +935,7 @@
 }
 
 .gradient-bg {
-    background: linear-gradient(0deg,hsla(0,0%,45%,.2),hsla(0,0%,45%,.2));
+    background: linear-gradient(0deg, hsla(0, 0%, 45%, .2), hsla(0, 0%, 45%, .2));
     border-radius: 16px
 }
 
@@ -935,11 +946,11 @@
 
 .popular-section {
     border-radius: 14px;
-    padding: 50px 0 0!important
+    padding: 50px 0 0 !important
 }
 
 .mobile .popular-section {
-    padding: 20px 0 0!important
+    padding: 20px 0 0 !important
 }
 
 .popular-section .btn-link {
@@ -963,7 +974,7 @@
 }
 
 .popular-section .btn-link.btn-prev:hover {
-    box-shadow: 3px 4px 4px rgba(0,0,0,.33);
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, .33);
     opacity: .8
 }
 
@@ -975,7 +986,7 @@
 .popular-section .btn-link.btn-prev i {
     transition: -webkit-transform .3s ease-out;
     transition: transform .3s ease-out;
-    transition: transform .3s ease-out,-webkit-transform .3s ease-out
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out
 }
 
 .popular-section .btn-link.btn-next {
@@ -984,7 +995,7 @@
 }
 
 .popular-section .btn-link.btn-next:hover {
-    box-shadow: 3px 4px 4px rgba(0,0,0,.33);
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, .33);
     opacity: .8
 }
 
@@ -996,7 +1007,7 @@
 .popular-section .btn-link.btn-next i {
     transition: -webkit-transform .3s ease-out;
     transition: transform .3s ease-out;
-    transition: transform .3s ease-out,-webkit-transform .3s ease-out
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out
 }
 
 .popular-section .btn-link span {
@@ -1033,7 +1044,7 @@
 }
 
 .promotion-section .center-position:after {
-    background: linear-gradient(180deg,#818181,#000);
+    background: linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     content: "";
     height: 5px;
@@ -1074,7 +1085,7 @@
 
 .top-section .common-title {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(180deg,#b6924b 18.18%,#cdbc7e 69.12%);
+    background: linear-gradient(180deg, #b6924b 18.18%, #cdbc7e 69.12%);
     -webkit-background-clip: text;
     display: none;
     font-size: 38px
@@ -1109,15 +1120,16 @@
 }
 
 .circular-progress:after {
-    background-clip: content-box,border-box;
-    background-image: linear-gradient(#18212e,#18212e),linear-gradient(180deg,#fff,#a5a3a1);
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#18212e, #18212e), linear-gradient(180deg, #fff, #a5a3a1);
     background-origin: border-box;
     border: 6px double transparent;
     border-radius: 50%;
     width: 66px
 }
 
-.circular-progress:after,.circular-progress:before {
+.circular-progress:after,
+.circular-progress:before {
     content: "";
     height: 66px;
     left: -3px;
@@ -1132,7 +1144,7 @@
 }
 
 .lgo-lw-wraper .width-40 {
-    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 100% 0,linear-gradient(180deg,#262626,#010101);
+    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 100% 0, linear-gradient(180deg, #262626, #010101);
     border-radius: 16px;
     padding: 10px;
     width: 100%
@@ -1140,7 +1152,7 @@
 
 .lgo-lw-wraper .width-40 .common-title {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(180deg,#fff 18.18%,#bfc2c4 69.12%);
+    background: linear-gradient(180deg, #fff 18.18%, #bfc2c4 69.12%);
     -webkit-background-clip: text;
     font-size: 18px;
     margin-bottom: 10px;
@@ -1177,7 +1189,7 @@
 
 .svc-advantage .circle-wrp>i {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg,#fbb24c,#fe7d38 95.87%);
+    background: linear-gradient(90deg, #fbb24c, #fe7d38 95.87%);
     -webkit-background-clip: text;
     color: #0083ff
 }
@@ -1195,7 +1207,8 @@
     margin-top: 35px
 }
 
-.common-group-section .common-section,.mobile .common-group-section {
+.common-group-section .common-section,
+.mobile .common-group-section {
     margin-top: 15px
 }
 
@@ -1213,22 +1226,22 @@
 }
 
 .mobile .common-group-section .last-winner .gradient-bg {
-    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0,linear-gradient(180deg,#262626,#010101);
+    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0, linear-gradient(180deg, #262626, #010101);
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid linear-gradient(180deg,#818181,#000);
+    border: 1px solid linear-gradient(180deg, #818181, #000);
     display: block;
     padding: 5px 0
 }
 
 .mobile .common-group-section .last-winner .gradient-bg .lw-loop-content:before {
-    background: linear-gradient(180deg,#818181,#000);
+    background: linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     content: "";
     height: 100%;
     left: -1px;
-    padding: 0!important;
+    padding: 0 !important;
     position: absolute;
     top: -1px;
     width: calc(100% + 2px);
@@ -1244,24 +1257,24 @@
 }
 
 .common-group-section .last-winner .content-wrapper {
-    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0,linear-gradient(180deg,#262626,#010101);
+    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0, linear-gradient(180deg, #262626, #010101);
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: auto;
     border-radius: 14px;
     display: inline-block;
-    overflow: initial!important;
+    overflow: initial !important;
     padding: 20px 64px;
     width: 100%
 }
 
 .common-group-section .last-winner .content-wrapper:before {
-    background: linear-gradient(180deg,#818181,#000);
+    background: linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     content: "";
     height: 100%;
     left: -1px;
-    padding: 0!important;
+    padding: 0 !important;
     position: absolute;
     top: -1px;
     width: calc(100% + 2px);
@@ -1273,18 +1286,18 @@
 }
 
 .common-group-section .last-winner li {
-    margin: 5px 16px!important;
+    margin: 5px 16px !important;
     -webkit-transform: scale(1);
     transform: scale(1)
 }
 
 .common-group-section .last-winner li:before {
-    background: linear-gradient(180deg,#818181,#000);
+    background: linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     content: "";
     height: 100%;
     left: -1px;
-    padding: 0!important;
+    padding: 0 !important;
     position: absolute;
     top: -1px;
     width: calc(100% + 2px);
@@ -1292,7 +1305,7 @@
 }
 
 .common-group-section .last-winner li .flex-start {
-    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0,linear-gradient(180deg,#262626,#010101);
+    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0, linear-gradient(180deg, #262626, #010101);
     background-position: 100% 0;
     background-size: 100%;
     border-radius: 14px;
@@ -1316,7 +1329,7 @@
 
 .common-group-section .last-winner-name span {
     color: #fff;
-    font-family: Barlow,sans-serif;
+    font-family: Barlow, sans-serif;
     font-size: 14px;
     font-weight: 500;
     margin: 0 0 0 10px;
@@ -1332,7 +1345,7 @@
 
 .common-group-section .last-winner-amount span {
     color: #fff;
-    font-family: Barlow,sans-serif;
+    font-family: Barlow, sans-serif;
     font-size: 16px;
     font-weight: 700;
     margin: 0;
@@ -1342,10 +1355,10 @@
 
 .common-title {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(180deg,#fff 18.18%,#bfc2c4 69.12%);
+    background: linear-gradient(180deg, #fff 18.18%, #bfc2c4 69.12%);
     -webkit-background-clip: text;
     display: inline-block;
-    font-family: Sora,sans-serif;
+    font-family: Sora, sans-serif;
     font-size: 25px;
     font-weight: 700;
     line-height: 1;
@@ -1361,13 +1374,14 @@
 }
 
 .a-disabledLink:after {
-    background: linear-gradient(1turn,#b7870c,#f4e303 43.57%,#97640e)!important;
+    background: linear-gradient(1turn, #b7870c, #f4e303 43.57%, #97640e) !important;
     transition: .5s ease
 }
 
-.mobile .top-bar a,.mobile .top-bar button {
+.mobile .top-bar a,
+.mobile .top-bar button {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(1turn,#b7870c,#f4e303 43.57%,#97640e);
+    background: linear-gradient(1turn, #b7870c, #f4e303 43.57%, #97640e);
     -webkit-background-clip: text
 }
 
@@ -1411,10 +1425,13 @@
 }
 
 .desktop .site-footer {
-    background: linear-gradient(0deg,#131313,#131313)
+    background: linear-gradient(0deg, #131313, #131313)
 }
 
-.desktop .footer-content .footerlink ul li,.desktop .footer-content .footerlink ul li a,.footer-misc,.title {
+.desktop .footer-content .footerlink ul li,
+.desktop .footer-content .footerlink ul li a,
+.footer-misc,
+.title {
     color: #fff
 }
 
@@ -1444,7 +1461,7 @@
 }
 
 .desktop .main.nav-wrapper {
-    background: linear-gradient(180deg,#2f2e2e,#2f2e2e)
+    background: linear-gradient(180deg, #2f2e2e, #2f2e2e)
 }
 
 .hot-games .games-leave-active {
@@ -1545,7 +1562,7 @@
 
 .promo-banner-title {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(180deg,#fff 18.18%,#bfc2c4 69.12%);
+    background: linear-gradient(180deg, #fff 18.18%, #bfc2c4 69.12%);
     -webkit-background-clip: text;
     font-size: 18px;
     font-weight: 600;
@@ -1570,7 +1587,8 @@
     width: 120px
 }
 
-.progress__meter,.progress__value {
+.progress__meter,
+.progress__value {
     fill: none
 }
 
@@ -1589,7 +1607,8 @@
     transform: rotate(-90deg)
 }
 
-.deposit-progress__meter,.deposit-progress__value {
+.deposit-progress__meter,
+.deposit-progress__value {
     fill: none
 }
 
@@ -1602,8 +1621,11 @@
     stroke-linecap: round
 }
 
-.auto-box:hover a,.auto-box:hover a:after,.main-nav a:hover,.nav-item:hover .navlink {
-    background: linear-gradient(1turn,#b7870c,#f4e303 43.57%,#97640e)!important;
+.auto-box:hover a,
+.auto-box:hover a:after,
+.main-nav a:hover,
+.nav-item:hover .navlink {
+    background: linear-gradient(1turn, #b7870c, #f4e303 43.57%, #97640e) !important;
     transition: .5s ease
 }
 
@@ -1612,13 +1634,13 @@
 }
 
 .mobile .online-users {
-    border-bottom: 1px solid rgba(0,0,0,.2);
-    border-top: 1px solid rgba(0,0,0,.2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    border-top: 1px solid rgba(0, 0, 0, .2);
     padding-top: 10px
 }
 
 .online-users .icon-outer {
-    background: linear-gradient(180deg,#818181 0,#131212);
+    background: linear-gradient(180deg, #818181 0, #131212);
     border-radius: 4px;
     display: inline-block;
     font-size: 18px;
@@ -1640,14 +1662,14 @@
 
 .online-users .icon-outer .icon-wrp i {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(1turn,#fff,#fff 43.57%,#fff);
+    background: linear-gradient(1turn, #fff, #fff 43.57%, #fff);
     -webkit-background-clip: text
 }
 
 .online-users .mail-color {
     -webkit-text-fill-color: transparent;
     word-wrap: break-word;
-    background: linear-gradient(180deg,#fff 0,#fff 100%,#fff 0,#fff 0);
+    background: linear-gradient(180deg, #fff 0, #fff 100%, #fff 0, #fff 0);
     -webkit-background-clip: text;
     font-size: 12px;
     font-weight: 900;
@@ -1681,9 +1703,9 @@
     width: 60%
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
     .width-60 {
-        margin:auto;
+        margin: auto;
         width: 98%
     }
 }
@@ -1692,9 +1714,9 @@
     width: 40%
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
     .width-40 {
-        margin:auto;
+        margin: auto;
         width: 98%
     }
 }
@@ -1708,9 +1730,9 @@
     width: 100%
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
     .top-section .width-40 {
-        margin:auto;
+        margin: auto;
         width: 98%
     }
 }
@@ -1726,9 +1748,9 @@
     position: relative
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
     .lw-loop-content {
-        height:300px
+        height: 300px
     }
 }
 
@@ -1773,9 +1795,9 @@
     width: 35px
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
     .theme-UL-style li .LW-div .wd-item__avatar {
-        padding-right:5px
+        padding-right: 5px
     }
 }
 
@@ -1785,7 +1807,7 @@
     cursor: pointer;
     display: -webkit-flex;
     display: flex;
-    font-family: Sora,sans-serif;
+    font-family: Sora, sans-serif;
     font-size: 14px;
     font-weight: 600;
     -webkit-justify-content: center;
@@ -1797,9 +1819,9 @@
     width: 70px
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
     .theme-UL-style li .LW-btn {
-        padding:3px 10px;
+        padding: 3px 10px;
         width: 90px
     }
 }
@@ -1838,27 +1860,31 @@
     width: 85%
 }
 
-.main-nav,.main-nav .nav-item {
-    overflow: initial!important
+.main-nav,
+.main-nav .nav-item {
+    overflow: initial !important
 }
 
 .main-nav .nav-item {
     transition: .2s
 }
 
-.main-nav .nav-item.is-active,.main-nav .nav-item:hover {
-    background-color: transparent!important;
+.main-nav .nav-item.is-active,
+.main-nav .nav-item:hover {
+    background-color: transparent !important;
     transition: .2s ease
 }
 
-.main-nav .nav-item.is-active .navlink,.main-nav .nav-item:hover .navlink {
-    background: linear-gradient(1turn,#b7870c,#f4e303 43.57%,#97640e)!important;
+.main-nav .nav-item.is-active .navlink,
+.main-nav .nav-item:hover .navlink {
+    background: linear-gradient(1turn, #b7870c, #f4e303 43.57%, #97640e) !important;
     -webkit-transform: skew(-20deg);
     transform: skew(-20deg);
     transition: .5s ease
 }
 
-.main-nav .nav-item.is-active .navlink .nav-icon,.main-nav .nav-item:hover .navlink .nav-icon {
+.main-nav .nav-item.is-active .navlink .nav-icon,
+.main-nav .nav-item:hover .navlink .nav-icon {
     left: -5px;
     position: relative;
     -webkit-transform: skew(20deg);
@@ -1866,7 +1892,8 @@
     transition: .5s ease
 }
 
-.main-nav .nav-item.is-active .navlink .nav-title,.main-nav .nav-item:hover .navlink .nav-title {
+.main-nav .nav-item.is-active .navlink .nav-title,
+.main-nav .nav-item:hover .navlink .nav-title {
     left: 5px;
     position: relative;
     -webkit-transform: skew(20deg);
@@ -1927,7 +1954,7 @@
 }
 
 .jackpot {
-    font-family: Sora,sans-serif;
+    font-family: Sora, sans-serif;
     font-weight: 900;
     line-height: 1.2;
     margin-top: 10px
@@ -1938,12 +1965,12 @@
 }
 
 .header-wrapper .fix.btn-accent {
-    background: linear-gradient(1turn,#b7870c,#f4e303 43.57%,#97640e);
+    background: linear-gradient(1turn, #b7870c, #f4e303 43.57%, #97640e);
     border: 1px solid #f4e303;
     border-radius: 0;
     color: #000;
     font-weight: 600;
-    margin-left: 0!important;
+    margin-left: 0 !important;
     -webkit-transform: skew(-20deg);
     transform: skew(-20deg);
     transition: .5s ease
@@ -1957,17 +1984,17 @@
 
 .header-wrapper .fix.btn-accent:hover {
     border: 1px solid #dbbe91;
-    box-shadow: inset 0 0 10px 0 #dbbe91,0 0 10px 0 #dbbe91;
+    box-shadow: inset 0 0 10px 0 #dbbe91, 0 0 10px 0 #dbbe91;
     transition: .5s ease
 }
 
 .header-wrapper .fix.btn-tertiery {
-    background: linear-gradient(1turn,#b7870c,#f4e303 43.57%,#97640e);
+    background: linear-gradient(1turn, #b7870c, #f4e303 43.57%, #97640e);
     border: 1px solid #b7870c;
     border-radius: 0;
     color: #000;
     font-weight: 600;
-    margin-right: 2px!important;
+    margin-right: 2px !important;
     -webkit-transform: skew(-20deg);
     transform: skew(-20deg);
     transition: .5s ease
@@ -1981,7 +2008,7 @@
 
 .header-wrapper .fix.btn-tertiery:hover {
     border: 1px solid #d2bfcc;
-    box-shadow: inset 0 0 10px 0 #d2bfcc,0 0 10px 0 #d2bfcc;
+    box-shadow: inset 0 0 10px 0 #d2bfcc, 0 0 10px 0 #d2bfcc;
     transition: .5s ease
 }
 
@@ -2056,7 +2083,7 @@
 }
 
 .desktop .popular-section .g-slider-wrapper.widget-wrapper .game-box {
-    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0,linear-gradient(180deg,#262626,#010101);
+    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0, linear-gradient(180deg, #262626, #010101);
     background-position: 100% 0;
     background-size: 100%;
     border-radius: 14px;
@@ -2068,7 +2095,7 @@
 
 .desktop .popular-section .g-slider-wrapper.widget-wrapper .game-box .widget-wrapper-image-img {
     border: 1px solid #fff;
-    box-shadow: 3px 4px 4px rgba(0,0,0,.33);
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, .33);
     height: auto;
     -o-object-fit: fill;
     object-fit: fill;
@@ -2095,7 +2122,7 @@
 
 .desktop .popular-section .g-slider-wrapper.widget-wrapper .game-title span {
     display: block;
-    font-family: Sora,sans-serif;
+    font-family: Sora, sans-serif;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap
@@ -2103,24 +2130,25 @@
 
 .desktop .popular-section .g-slider-wrapper li {
     border-radius: 14px;
-    box-shadow: 3px 4px 4px rgba(0,0,0,.33);
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, .33);
     display: inline-block;
     margin: 6px 5px;
     position: relative;
     text-align: center
 }
 
-.desktop .popular-section .g-slider-wrapper li,.desktop .popular-section .g-slider-wrapper li:hover {
-    background: linear-gradient(180deg,#262626,#010101)
+.desktop .popular-section .g-slider-wrapper li,
+.desktop .popular-section .g-slider-wrapper li:hover {
+    background: linear-gradient(180deg, #262626, #010101)
 }
 
 .desktop .popular-section .g-slider-wrapper li:before {
-    background: linear-gradient(180deg,#818181,#000);
+    background: linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     content: "";
     height: 100%;
     left: -1px;
-    padding: 0!important;
+    padding: 0 !important;
     position: absolute;
     top: -1px;
     width: calc(100% + 2px);
@@ -2158,9 +2186,9 @@
     padding-top: 0
 }
 
-@media (min-width: 768px) and (max-width:1024px) {
+@media (min-width:768px) and (max-width:1024px) {
     .mobile .top-section .jackpot-wraper .jackpot .text-content {
-        display:inline-block;
+        display: inline-block;
         font-size: 44px;
         margin-top: 20px
     }
@@ -2183,7 +2211,7 @@
 }
 
 .mobile .common-title {
-    font-size: 18px!important;
+    font-size: 18px !important;
     margin: 0;
     text-align: center;
     width: 100%
@@ -2221,8 +2249,8 @@
 .mobile .g-slider-wrapper li {
     background: #131212;
     border-radius: 14px;
-    border-top: 1px solid linear-gradient(180deg,#818181,#000);
-    box-shadow: 3px 4px 4px rgba(0,0,0,.33);
+    border-top: 1px solid linear-gradient(180deg, #818181, #000);
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, .33);
     display: inline-block;
     margin: 6px;
     padding: 0;
@@ -2230,17 +2258,18 @@
     text-align: center
 }
 
-.mobile .g-slider-wrapper li:hover,.mobile .g-slider-wrapper li:hover:before {
-    background: linear-gradient(180deg,#262626,#010101)
+.mobile .g-slider-wrapper li:hover,
+.mobile .g-slider-wrapper li:hover:before {
+    background: linear-gradient(180deg, #262626, #010101)
 }
 
 .mobile .g-slider-wrapper li:before {
-    background: linear-gradient(180deg,#818181,#000);
+    background: linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     content: "";
     height: 100%;
     left: -1px;
-    padding: 0!important;
+    padding: 0 !important;
     position: absolute;
     top: -1px;
     width: calc(100% + 2px);
@@ -2248,7 +2277,7 @@
 }
 
 .mobile .g-slider-wrapper .widget-wrapper-image {
-    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0,linear-gradient(180deg,#262626,#010101);
+    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0, linear-gradient(180deg, #262626, #010101);
     background-position: 100% 0;
     background-size: cover;
     float: left;
@@ -2294,7 +2323,7 @@
 
 .mobile .g-slider-wrapper .game-title span {
     display: block;
-    font-family: Sora,sans-serif;
+    font-family: Sora, sans-serif;
     line-height: 12px;
     overflow: hidden;
     padding: 5px 2px;
@@ -2314,9 +2343,9 @@
 }
 
 .mobile .g-slider-wrapper .lw-loop-content ul li {
-    background: linear-gradient(180deg,#4100a8,#2f0058);
+    background: linear-gradient(180deg, #4100a8, #2f0058);
     display: block;
-    margin-bottom: 20px!important
+    margin-bottom: 20px !important
 }
 
 .mobile .g-slider-wrapper .lw-loop-content ul li .LW-btn {
@@ -2329,14 +2358,14 @@
     width: 45px
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
     .mobile .g-slider-wrapper .lw-loop-content ul li .LW-div .wd-item__avatar {
-        padding-right:5px
+        padding-right: 5px
     }
 }
 
 .mobile .Popular-slider {
-    background: linear-gradient(0deg,hsla(0,0%,45%,.2),hsla(0,0%,45%,.2));
+    background: linear-gradient(0deg, hsla(0, 0%, 45%, .2), hsla(0, 0%, 45%, .2));
     border-radius: 8px;
     padding: 15px;
     position: relative
@@ -2347,8 +2376,9 @@
     border-radius: 0
 }
 
-.mobile .btns-log .btn-accent,.mobile .btns-log .btn-tertiery {
-    background: linear-gradient(1turn,#b7870c,#f4e303 43.57%,#97640e);
+.mobile .btns-log .btn-accent,
+.mobile .btns-log .btn-tertiery {
+    background: linear-gradient(1turn, #b7870c, #f4e303 43.57%, #97640e);
     color: #000
 }
 
@@ -2368,10 +2398,11 @@
 }
 
 body {
-    font-family: Sora,sans-serif
+    font-family: Sora, sans-serif
 }
 
-body,body.mobile {
+body,
+body.mobile {
     background: #020203
 }
 
@@ -2380,22 +2411,22 @@ body,body.mobile {
 }
 
 .desktop .deposit-withdraw-div .info-section {
-    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0,linear-gradient(180deg,#262626,#010101);
+    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0, linear-gradient(180deg, #262626, #010101);
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: contain;
-    border: 1px solid linear-gradient(180deg,#818181,#000);
+    border: 1px solid linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     margin: 1px
 }
 
 .deposit-withdraw-div .info-section:after {
-    background: linear-gradient(180deg,#818181,#000);
+    background: linear-gradient(180deg, #818181, #000);
     border-radius: 14px;
     content: "";
     height: 100%;
     left: -1px;
-    padding: 0!important;
+    padding: 0 !important;
     position: absolute;
     top: -1px;
     width: calc(100% + 2px);
@@ -2403,11 +2434,11 @@ body,body.mobile {
 }
 
 .mobile .deposit-section {
-    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0,linear-gradient(180deg,#262626,#010101);
+    background: url(https://files.sitestatic.net/assets/imgs/kixplays_game_bg.png) no-repeat 0 0, linear-gradient(180deg, #262626, #010101);
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: contain;
-    border: 1px solid linear-gradient(180deg,#818181,#000);
+    border: 1px solid linear-gradient(180deg, #818181, #000);
     border-radius: 14px
 }
 
@@ -2419,7 +2450,8 @@ body,body.mobile {
     background: #000
 }
 
-.mobile .scroll-wrapper[_home] .next-btn,.mobile .scroll-wrapper[_home] .prev-btn {
+.mobile .scroll-wrapper[_home] .next-btn,
+.mobile .scroll-wrapper[_home] .prev-btn {
     background: #262525
 }
 
@@ -2460,7 +2492,8 @@ body,body.mobile {
     width: 100%
 }
 
-.desktop .g-slider-wrapper a.game-box,.desktop .g-slider-wrapper div.game-box {
+.desktop .g-slider-wrapper a.game-box,
+.desktop .g-slider-wrapper div.game-box {
     color: inherit;
     display: block;
     height: 150px;
@@ -2475,18 +2508,22 @@ body,body.mobile {
     text-transform: uppercase
 }
 
-.main-nav a.active,.main-nav a:hover,.nav-item:hover .navlink {
-    background: linear-gradient(90deg,#dbbe91,rgba(121,70,29,.95))!important
+.main-nav a.active,
+.main-nav a:hover,
+.nav-item:hover .navlink {
+    background: linear-gradient(90deg, #dbbe91, rgba(121, 70, 29, .95)) !important
 }
 
 .main-nav .nav-item .navlink {
-    color: orange!important
+    color: orange !important
 }
 
 .main-nav .nav-item:hover .navlink {
-    color: #fff!important
+    color: #fff !important
 }
 
-.a-disabledLink:after,.auto-box:hover a:after,.main-nav .nav-item:hover .navlink {
-    background: linear-gradient(90deg,#dbbe91,rgba(121,70,29,.95))!important
+.a-disabledLink:after,
+.auto-box:hover a:after,
+.main-nav .nav-item:hover .navlink {
+    background: linear-gradient(90deg, #dbbe91, rgba(121, 70, 29, .95)) !important
 }
